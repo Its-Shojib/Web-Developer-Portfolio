@@ -1,11 +1,46 @@
-nav{
-    display: flex;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-nav>ul{
+
+nav {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-nav li{
-    text-decoration: none;
+
+.title {
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.orange {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
     list-style: none;
-    margin-right: 20px;
+    margin-right: 50px;
+}
+
+nav a {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 35px;
 }
