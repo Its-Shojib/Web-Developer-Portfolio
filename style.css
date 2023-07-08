@@ -39,15 +39,17 @@ nav a {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    color:white;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     padding: 15px 20px;
 }
-.btn-primary:hover{
-    color:#FD6E0A;
+
+.btn-primary:hover {
+    color: #FD6E0A;
     background-color: white;
 }
+
 .header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('./images/developer.png');
@@ -61,27 +63,48 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
-.image{
+
+.image {
     margin-bottom: 0px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 40px;
-    margin:0px;
+    margin: 0px;
 }
-div>.btn-primary{
+
+div>.btn-primary {
     margin: 10px;
 }
-.about-me{
+
+.about-me {
     border-radius: 10px;
-    background: #FFF8F3;
-    margin: 100px 230px;
+    background: #b99479;
+    margin:120px 230px;
+    padding: 50px 0px;
 }
-.cntr{
+.cntr {
+    
     text-align: center;
 }
-.text{
+.text {
     padding: 0px 156px;
+    color:rgb(128, 34, 34);
+}
+.me {
+    display: flex;
+    gap: 25px;
+    color:wheat;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 200px;
+}
+.what p{
+    padding: 0px 345px;
 }
