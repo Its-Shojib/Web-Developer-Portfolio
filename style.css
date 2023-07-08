@@ -42,5 +42,46 @@ nav a {
     color:white;
     font-size: 20px;
     font-weight: 500;
-    padding: 15px 35px;
+    padding: 15px 20px;
+}
+.btn-primary:hover{
+    color:#FD6E0A;
+    background-color: white;
+}
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    margin-bottom: 0px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-title{
+    font-size: 40px;
+    margin:0px;
+}
+div>.btn-primary{
+    margin: 10px;
+}
+.about-me{
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 100px 230px;
+}
+.cntr{
+    text-align: center;
+}
+.text{
+    padding: 0px 156px;
 }
