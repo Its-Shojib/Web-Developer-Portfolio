@@ -45,10 +45,10 @@ nav a {
     padding: 15px 20px;
 }
 
-.btn-primary:hover {
+/* .btn-primary:hover {
     color: #FD6E0A;
     background-color: white;
-}
+} */
 
 .header {
     background-color: #FFF8F3;
@@ -105,6 +105,32 @@ div>.btn-primary {
     line-height: 20px;
     padding-left: 200px;
 }
-.what p{
+.what> p{
     padding: 0px 345px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    margin: 20px 260px;
+    gap:40px;
+}
+.logo p{
+    text-align: justify;
+    padding: 10px 30px 10px 0px;
+}
+.summery{
+    margin-top: 50px;
+}
+.resume{
+    display: flex;
+    margin: 40px 260px;
+    gap: 50px;
+    color:  #474747;
+    
+}
+hr{
+    margin: 20px 0px;
+}
+.summery button{
+    margin: 10px 650px;
 }
