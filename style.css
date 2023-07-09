@@ -134,3 +134,25 @@ hr{
 .summery button{
     margin: 10px 650px;
 }
+.last{
+    display: flex;
+    margin: 20px 260px;
+    gap:50px;
+}
+.social a{
+    margin-right: 20px;
+}
+
+.connect{
+    max-width: 50%;
+}
+.connect>small{
+    margin-bottom: 50px;
+}
+input[type="text"],input[type="email"], textarea{
+    border: 0px white;
+    width: 100%;
+    background: #FFF;
+    padding: 18px 35px;
+    margin-top: 20px;
+}
