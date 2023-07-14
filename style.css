@@ -156,3 +156,50 @@ input[type="text"],input[type="email"], textarea{
     padding: 18px 35px;
     margin-top: 20px;
 }
+.hide{
+    display: none;
+}
+
+@media screen  and (max-width:576px) {
+    
+    .resume {
+        margin: 10px 10px;
+        flex-direction: column;
+    }
+    .what> p {
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .text {
+        padding: 0px 0px;
+        color: rgb(128, 34, 34);
+    }
+    .logo {
+        display: flex;
+        margin: 10px 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .summery button {
+        margin: 10px 50px;
+    }
+    .last {
+        display: flex;
+        margin: 0px 5px;
+        gap:0px;
+        flex-direction: column;
+    }
+    input[type="text"],input[type="email"], textarea{
+        width: 70%;
+    }
+}
+@media screen  and (min-width:576px) and (max-width:992px) {
+    .last {
+        display: flex;
+        margin: 0px 5px;
+        gap:0px;
+    }
+    input[type="text"],input[type="email"], textarea{
+        width: 70%;
+    }
+}
