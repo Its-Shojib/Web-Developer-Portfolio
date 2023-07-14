@@ -131,8 +131,10 @@ div>.btn-primary {
 hr{
     margin: 20px 0px;
 }
-.summery button{
-    margin: 10px 650px;
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .last{
     display: flex;
@@ -157,6 +159,11 @@ input[type="text"],input[type="email"], textarea{
     margin-top: 20px;
 }
 
+
+
+
+/* **RESPONSIVE** */
+
 @media screen  and (max-width:576px) {
     
     .header {
@@ -166,10 +173,11 @@ input[type="text"],input[type="email"], textarea{
         width: 80%;
     }
     nav {
-        /* padding: 10px; */
-        width: 80%;
-        justify-content:flex-start;
+
+        width: 100%;
+        justify-content:center;
         flex-direction: column;
+        align-items: center;
     }
     nav>ul {
         gap:10px;
@@ -207,8 +215,10 @@ input[type="text"],input[type="email"], textarea{
         gap: 20px;
         flex-direction: column;
     }
-    .summery button {
-        margin: 10px 50px;
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .last {
         display: flex;
@@ -221,12 +231,64 @@ input[type="text"],input[type="email"], textarea{
     }
 }
 @media screen  and (min-width:576px) and (max-width:992px) {
-    .last {
-        display: flex;
-        margin: 0px 5px;
-        gap:0px;
+    .header {
+        background-image:none;
     }
+    nav {
+        flex-direction: column;
+    }
+    .banner {
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .banner-content {
+        max-width:50%;
+    }
+    .image>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-me, .text {
+        margin: 10px 10px; 
+        padding: 10px 0px;
+    }
+    .me {
+        padding-left: 20px;
+    }
+    .what > p {
+        padding:0px;
+    }
+    .logo {
+        margin: 10px 10px;
+        gap: 40px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .summery {
+        margin-top: 10px;
+    }
+    .resume {
+
+        margin: 10px 10px;
+        gap: 20px;
+
+    }
+    .summery button {
+        margin:20px 0px;
+
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .last{
+        margin: 5px 10px;
+    }
+
     input[type="text"],input[type="email"], textarea{
         width: 70%;
     }
+
 }
