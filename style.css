@@ -156,12 +156,39 @@ input[type="text"],input[type="email"], textarea{
     padding: 18px 35px;
     margin-top: 20px;
 }
-.hide{
-    display: none;
-}
 
 @media screen  and (max-width:576px) {
     
+    .header {
+        background-image: none;
+    }
+    .image>img{
+        width: 80%;
+    }
+    nav {
+        /* padding: 10px; */
+        width: 80%;
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+    nav>ul {
+        gap:10px;
+        flex-direction: column;
+    }
+    .banner {
+        padding-left: 50px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .about-me {
+        margin: 10px 10px; 
+        padding: 10px 10px; 
+    }
+    .me {
+        gap: 0px;
+        padding-left: 0px;
+        flex-direction: column;
+    }
     .resume {
         margin: 10px 10px;
         flex-direction: column;
